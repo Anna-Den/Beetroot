@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <section>
+        <h2>Create an Account</h2>
+        <form>
+            <p>First Name</p>
+            <label for="fname"></label>
+            <input type="text">
+            <p>Last Name</p>
+            <label for="lname"></label>
+            <input type="text">
+            <p>E-mail</p>
+            <label for="mail"></label>
+            <input type="text">
+        </form>
+
+        <h6>We'll never share your email with anyone else.</h6>
+
+        <label for="field1">Male</label>
+        <input id="filed1" type="radio" name="gender" value="Male">
+
+        <label for="filed2">Female</label>
+        <input id="filed2" type="radio" name="gender" value="Female">
+
+        </select>
+
+
+        <p>
+        <form>
+            <p><label for="count">Country</label></p>
+            <select name="Country" id="count" placeholder="Select">
+                <option value="select">Select</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <p>City</p>
+            <label for="city"></label>
+            <input type="text">
+
+            </select>
+            <p><button type="submit" class="singupbtn">Sign Up</button></p>
+
+            <h6>By clicking the 'Sign Up' button, you confirm that you accept our
+                <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+            </h6>
+            <hr>
+            <h5>Have an account? <a href="#">Log In</a></h5>
+        </form>
+    </section>
+
+    <section>
+        <h2>Profile</h2>
+        <img src="/Image.png" alt="Image man">
+        <input type="text">
+        <i class="fa fa-camera" style="font-size:12px"></i>
+
+        <button style="font-size:10px"><i class="fa fa-trash-o fa-lg"></i></button>
+        <h6>Up to 1 MB (300x300 px)</h6>
+        <form>
+            <p>Name</p>
+            <label for="name"></label>
+            <input type="text">
+            <p>E-mail</p>
+            <label for="mail"></label>
+            <input type="text">
+            <p>Country</p>
+            <select name="Country" id="count" placeholder="Select">
+                <option value="select">Select</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <p>City</p>
+            <label for="city"></label>
+            <input type="text">
+
+            <p>Zip Code</p>
+            <label for="zipcode"></label>
+            <input type="number">
+
+            <p>Phone Number</p>
+            <label for="phone"></label>
+            <input type="tel">
+
+            <p><button type="button" class="updatebtn">Update</button></p>
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>

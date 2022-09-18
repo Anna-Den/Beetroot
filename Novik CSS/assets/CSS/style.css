@@ -1,0 +1,183 @@
+* {
+    text-align: center;
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.menu {
+    list-style-type: none;
+    margin: 27px;
+
+}
+
+.menu li {
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+.menu li a {
+    color: #828282;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    padding: 0px;
+
+}
+
+.menu li a:hover {
+    color: #070707;
+    text-decoration: none;
+
+}
+
+.line {
+    border-bottom: 1px solid #828282;
+    width: 970px;
+}
+
+.IMG {
+
+    align-content: center;
+
+}
+
+#h1 {
+    padding: 12px 485px 50px 0px;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin: 0px;
+}
+
+.h2 {
+    font-family: Open Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+}
+
+
+
+.container {
+    /* max-width: 970px; 
+    якщо його додати, то робить рамочку на фоні */
+    margin: 0 auto;
+}
+
+.about_me_block p {
+    margin-top: 30px;
+}
+
+.about_me_block p:nth-child(2) {
+    margin-top: 0;
+}
+
+.about_me_block p:nth-child(4) {
+    margin-top: 0;
+}
+
+.about_me_block p:nth-child(6) {
+    margin-top: 0;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section-background {
+    background-color: #F6F6F6;
+}
+
+.skills {
+    display: inline-block;  
+}
+
+img+h6 {
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.flex-container {
+        display: flex;
+}
+
+.flex-container+div {
+    padding-right: 187px; 
+    justify-content: center;  
+}
+
+/* .skills img {
+    padding-right: 187px;
+} */
+
+
+h2+p {
+    margin-top: 20px;
+}
+
+h2+div {
+    margin-top: 50px;
+}
+
+h5 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+h5+h2 {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+h2+h5 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 44px;
+    background-color: #070707;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #070707;
+    border: 2px solid #070707;
+}
+
+.icons a {
+    display: inline-block;
+    align-content: center;
+}
+
+.icons a:nth-child(1) {
+    padding-right: 40px;
+}
+
+.icons a:nth-child(2) {
+    padding-right: 40px;
+}
+
+.icons a:nth-child(3) {
+    padding-right: 40px;
+}
+
+h6 {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    color: #828282;
+}

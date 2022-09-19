@@ -1,22 +1,24 @@
+/* Добрий день 
+Ніяк не віходить відірввати роздільну лінію в меню.
+Також не знаю як розмістити блоки в skills. Як зірочкам 
+та блокам задати певний розмір */
+
+
 * {
     text-align: center;
     /* box-sizing: border-box; */
     padding: 0;
     margin: 0;
-
-
 }
 
 .menu {
     list-style-type: none;
     margin: 27px;
-
 }
 
 .menu li {
     display: inline-block;
     padding-right: 40px;
-
 }
 
 .menu li a {
@@ -28,13 +30,11 @@
     line-height: 25px;
     letter-spacing: 0.02em;
     padding: 0px;
-
 }
 
 .menu li a:hover {
     color: #070707;
     text-decoration: none;
-
 }
 
 .line {
@@ -45,7 +45,6 @@
 .IMG {
 
     align-content: center;
-
 }
 
 #h1 {
@@ -64,8 +63,6 @@
     line-height: 46px;
     letter-spacing: 0em;
 }
-
-
 
 .container {
     /* max-width: 970px; 
@@ -98,20 +95,21 @@
 }
 
 .skills {
-    display: inline-block;  
+    display: inline-block;
 }
 
 img+h6 {
     margin-top: 25px;
     margin-bottom: 60px;
 }
+
 .flex-container {
-        display: flex;
+    display: flex;
 }
 
 .flex-container+div {
-    padding-right: 187px; 
-    justify-content: center;  
+    padding-right: 187px;
+    justify-content: center;
 }
 
 /* .skills img {
